@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-101-maple-room">
+        <li class="text">101 MAPLE ROOM</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-102-tray-drop">
+        <li class="text">102 TRAY DROP</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-103-north-kitchen">
+        <li class="text">103 NORTH KITCHEN</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-107-tray-drop">
+        <li class="text">107 TRAY DROP</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-109-north-arcade-2">
+        <li class="text">109 NORTH ARCADE 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-109-north-arcade-3">
+        <li class="text">109 NORTH ARCADE 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-109-north-arcade">
+        <li class="text">109 NORTH ARCADE</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-110-oak-room">
+        <li class="text">110 OAK ROOM</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-116-corr">
+        <li class="text">116 CORR</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-120-corridor">
+        <li class="text">120 CORRIDOR</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-121-t1-elev-lobby">
+        <li class="text">121 t1 ELEV LOBBY</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-122-t1-west-lobby">
+        <li class="text">122 T1 WEST LOBBY</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-123-t1-garage-elev-lobby">
+        <li class="text">123 T1 GARAGE ELEV LOBBY</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-124-interpretive-center---entry">
+        <li class="text">124 INTERPRETIVE CENTER - ENTRY</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-124-interpretive-center">
+        <li class="text">124 INTERPRETIVE CENTER</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-138-storage">
+        <li class="text">138 STORAGE</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-200-t2-east-lobby">
+        <li class="text">200 T2 EAST LOBBY</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-201-cherry-room">
+        <li class="text">201 CHERRY ROOM</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-202-corridor">
+        <li class="text">202 CORRIDOR</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-205-vending">
+        <li class="text">205 VENDING</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-207-tray-drop">
+        <li class="text">207 TRAY DROP</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-209-south-arcade-2">
+        <li class="text">209 SOUTH ARCADE 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-209-south-arcade">
+        <li class="text">209 SOUTH ARCADE</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-210-walnut-room">
+        <li class="text">210 WALNUT ROOM</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-218-t2-west-lobby">
+        <li class="text">218 T2 WEST LOBBY</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-219-t2-garage-elev-lobby-2">
+        <li class="text">219 T2 GARAGE ELEV LOBBY 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-219-t2-garage-elev-lobby">
+        <li class="text">219 T2 GARAGE ELEV LOBBY</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-l-10-central-atrium---stair-landing">
+        <li class="text">L-10 CENTRAL ATRIUM - STAIR LANDING</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-l-10-central-servery">
+        <li class="text">L-10 CENTRAL SERVERY</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-l-20-link-level-2---east">
+        <li class="text">L-20 LINK LEVEL 2 - EAST</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-l-20-link-level-2---west">
+        <li class="text">L-20 LINK LEVEL 2 - WEST</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-l-20-open-dining">
+        <li class="text">L-20 OPEN DINING</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-l-30-north-servery">
+        <li class="text">L-30 NORTH SERVERY</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-l-60-south-servery">
+        <li class="text">L-60 SOUTH SERVERY</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-l-80-central-arcade">
+        <li class="text">L-80 CENTRAL ARCADE</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-t1-east-lobby">
+        <li class="text">T1 EAST LOBBY</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-xxx-link-northeast-exterior">
+        <li class="text">XXX LINK NORTHEAST EXTERIOR</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-xxx-link-southeast-exterior">
+        <li class="text">XXX LINK SOUTHEAST EXTERIOR</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-xxx-t1-east-lobby-entry">
+        <li class="text">XXX T1 EAST LOBBY ENTRY</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-xxx-t1-northwest-entry">
+        <li class="text">XXX T1 NORTHWEST ENTRY</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-xxx-t1-northwest-plaza">
+        <li class="text">XXX T1 NORTHWEST PLAZA</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-xxx-t2-east-exterior">
+        <li class="text">XXX T2 EAST EXTERIOR</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/es5-shim.js"></script>
+<script src="vendor/eventShim.js"></script>
+<script src="vendor/classList.js"></script>
+<script src="vendor/requestAnimationFrame.js" ></script>
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
